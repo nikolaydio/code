@@ -1,0 +1,34 @@
+Statements:
+-Simple(Kappas)
+-Compound(Functions)
+Both type of statements end with .(dot)
+
+Simple:
+1. Push into stack: Kappa <number>.
+2. Pop from stack: Kappa Kappa.
+3. Duplicate the last element in the stack: Kappa Kappa Kappa.
+4. Rotate the last 2 elements in the stack: Kappa Kappa Kappa Kappa.
+5. Pop the last 2 elements from the stack, add them and push the result:
+Kappa Kappa Kappa Kappa Kappa.
+6. Pop the last 2 elements from the stack, substact the first by the second and push the result:
+Kappa Kappa Kappa Kappa Kappa Kappa.
+7. Pop the last 2 elements from the stack, mul them and push the result:
+Kappa Kappa Kappa Kappa Kappa Kappa Kappa.
+8. Pop the last 2 elements from the stack, divide the first by the second and push the result:
+Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa.
+9. Two options - Print integer(option != 1) & print string(option == 1).
+Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa <option>.
+If option != 1, take the last element and print it as integer.
+If option == 1, take the last element and use it as lenght of the string from the top of the stack.
+10. Call. Pop - a(function number)
+11. Call if not equal. Pop - a(function number), b(first operand), c(second operand)
+12. Call if equal. Pop - a(function number), b(first operand), c(second operand)
+13. Call if less than. Pop - a(function number), b(first operand), c(second operand)
+
+Compound:
+1. Function declaration:
+NoCopy
+	Simple statements
+Pasterino.
+
+The functions are given IDs based on the order they are declared. First function has ID 0.
