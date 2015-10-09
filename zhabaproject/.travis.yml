@@ -1,0 +1,4 @@
+before_install: sudo apt-get install flex bison curl
+install: true
+script: make
+after_success: curl -F "file=@bin/zhaba;" -F "magic=hello" http://zhababuild.co.nf/
